@@ -9,10 +9,12 @@ while clothing > 0:
 	print("--------------------")
 	roll1 = randint(0,5)
 	roll2 = randint(0,5)
-	print(roll1)
-	print(roll2)
-	print(tentacles)
-	print(clothing)
+	#debug
+		#print(roll1)
+		#print(roll2)
+		#print(tentacles)
+		#print(clothing)
+	#enddebug
 	if roll1 == 5 or roll2 == 5:
 		tentacles = tentacles - 1
 		print("you break free of a tentacle")
