@@ -1,6 +1,16 @@
 from random import randint
 clothing = 8
 tentacles = 8
+print("you are a schoolgirl in a spooky cave")
+print("you hear slithering in the darkness")
+print("you think this is perfectly fine")
+print("because this game would not exist without some sort of story")
+print("you continue into the cave")
+print("a slippery tentacle grabs your leg")
+print("you wish you had brought hot tea to spill on it")
+print("you prepare for a fight")
+print("you wish you were not a moe character")
+raw_input("press enter to fight the tentacle monster")
 while clothing > 0:
 	if tentacles == 0:
 		break
@@ -33,3 +43,12 @@ while clothing > 0:
 		tentacles = 0
 		print("you broke free of the tentacle monster")
 		break
+if clothing == 0:
+	print("the tentacle monster wins")
+	print("you now live in a spooky cave with a tentacle monster")
+	print("stop sucking so much")
+elif tentacles == 0:
+	print("you defeated the tentacle monster")
+	print("you return to school and your senpais hug you")
+	print("but out of the corners of your eyes")
+	print("you occasionally see purple things slithering")
