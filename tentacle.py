@@ -4,7 +4,7 @@ import os
 def getVoice(x):
     print (x);
     try:
-        return (os.system("espeak -s 160 -v en+f4 '" + x + "'"));
+        return (os.system("espeak -s 160 -v en-n '" + x + "'"));
     except:
         return (print("Voice is offline"));
 def battle(self):
